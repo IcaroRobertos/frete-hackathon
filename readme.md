@@ -1,1 +1,15 @@
-Se comporte como um gerente de tecnologia construindo fluxos internos da empresa, e que precisa de palavras chaves para relacionar com a intenção do fluxo. Liste para mim palavras chaves e sinonimos relacionadas ao fluxo de recuperação de senha
+## BotPress Integration
+
+### How run the service?
+
+To run the service you need to run the commands below:
+
+```
+docker-compose up -d
+```
+
+And the service will be available on port 8080
+
+### Environment
+
+Environment variables are in the file `docker-compose.yaml`.
