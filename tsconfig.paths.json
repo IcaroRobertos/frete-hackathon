@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@data/*": ["./data/*"],
+      "@environment": ["./src/infrastructure/config/environment"],
+      "@errors": ["./src/domain/errors/__index__"],
+      "@http/*": ["./src/infrastructure/ports/http/*"],
+      "@io/*": ["./src/infrastructure/io/*"],
+      "@ioc": ["./src/infrastructure/ioc/__index__"],
+      "@interfaces": ["./src/application/interface/__index__"],
+      "@usecases": ["./src/application/use_cases/__index__"],
+      "@variables": ["./src/infrastructure/config/variables"],
+      "@repositories": ["./src/infrastructure/repositories/__index__"],
+    }
+  }
+}

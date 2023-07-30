@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  botpress:
+    container_name: botpress
+    build:
+      context: ./
+      dockerfile: .setup/build/Dockerfile
+      target: dev
+    image: botpress
+    command: yarn dev
+    environment:
+      - APP_ENV=development
+      - APP_PORT=8080
+      - OPENAI_API_KEY=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
+    ports:
+      - 8080:8080
+    volumes:
+      - ./:/app
+    networks:
+      - botpress
+
+networks:
+  botpress:
+    name: "botpress"

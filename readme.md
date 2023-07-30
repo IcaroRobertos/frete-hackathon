@@ -1,0 +1,1 @@
+Se comporte como um gerente de tecnologia construindo fluxos internos da empresa, e que precisa de palavras chaves para relacionar com a intenção do fluxo. Liste para mim palavras chaves e sinonimos relacionadas ao fluxo de recuperação de senha

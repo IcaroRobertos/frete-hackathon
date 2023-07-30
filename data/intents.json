@@ -1,0 +1,164 @@
+[
+  {
+    "keys": [
+      "Perdi a senha do aplicativo",
+      "Esqueci a senha do aplicativo",
+      "Não lembro a senha do aplicativo",
+      "Senha do aplicativo esquecida",
+      "Não tenho a senha do aplicativo",
+      "Preciso recuperar a senha do aplicativo",
+      "Senha do app esquecida",
+      "Não consigo acessar o aplicativo, esqueci a senha",
+      "Redefinir senha do aplicativo",
+      "Senha do app perdida",
+      "Necessito relembrar a senha do aplicativo"
+    ],
+    "flow": "NODE_ACESSO_APP_SENHA"
+  },
+  {
+    "keys": [
+      "Perdi a senha do site",
+      "Esqueci a senha do site",
+      "Não lembro a senha do site",
+      "Senha do site esquecida",
+      "Não tenho a senha do site",
+      "Preciso recuperar a senha do site",
+      "Senha do website esquecida",
+      "Não consigo acessar o site, esqueci a senha",
+      "Redefinir senha do site",
+      "Senha do portal perdida",
+      "Necessito relembrar a senha do site"
+    ],
+    "flow": "NODE_ACESSO_SITE_SENHA"
+  },
+  {
+    "keys": [
+      "Alteração de telefone e senha",
+      "Atualização de número de telefone e senha",
+      "Atualização de telefone e senha",
+      "Mudança de telefone e senha",
+      "Atualizar o telefone e a senha",
+      "Modificação do telefone e senha",
+      "Troca de número de telefone e senha",
+      "Atualização de contato e senha",
+      "Atualização de informações de contato e senha",
+      "Atualização de celular e senha",
+      "Renovação de telefone e senha"
+    ],
+    "flow": "NODE_TRANSBORDO_SENHA_ATUALIZA_TEL"
+  },
+  {
+    "keys": [
+      "Desejo modificar informações da CNH",
+      "Quero alterar dados da CNH",
+      "Gostaria de atualizar dados da CNH",
+      "Preciso fazer alterações na CNH",
+      "Quero atualizar meus dados de habilitação",
+      "Necessito realizar mudanças na CNH",
+      "Tenho interesse em atualizar informações da carteira de motorista",
+      "Gostaria de fazer ajustes na CNH",
+      "Quero atualizar meu documento de habilitação",
+      "Desejo alterar detalhes da minha CNH",
+      "Preciso realizar uma atualização na carteira de motorista"
+    ],
+    "flow": "NODE_ATUALIZA_CNH"
+  },
+  {
+    "keys": [
+      "Desejo modificar informações de Telefone",
+      "Quero alterar dados de telefone",
+      "Gostaria de atualizar meus dados de Telefone",
+      "Preciso fazer alterações no número de Telefone",
+      "Quero atualizar meu contato Telefônico",
+      "Necessito realizar mudanças no Telefone cadastrado",
+      "Tenho interesse em atualizar meu número de Telefone",
+      "Gostaria de fazer ajustes no meu contato Telefônico",
+      "Quero atualizar meu número de contato",
+      "Desejo alterar detalhes do meu Telefone",
+      "Preciso realizar uma atualização no número de Telefone"
+    ],
+    "flow": "NODE_ALTERACAO_TELEFONE"
+  },
+  {
+    "keys": [
+      "Desejo modificar informações da placa",
+      "Quero alterar dados da placa",
+      "Gostaria de atualizar os dados da placa",
+      "Preciso fazer alterações na placa do veículo",
+      "Quero atualizar o registro da placa",
+      "Necessito realizar mudanças na placa cadastrada",
+      "Tenho interesse em atualizar o número da placa",
+      "Gostaria de fazer ajustes na placa do meu veículo",
+      "Quero atualizar o número de identificação da placa",
+      "Desejo alterar detalhes da placa do meu veículo",
+      "Preciso realizar uma atualização no registro da placa"
+    ],
+    "flow": "NODE_ALTERACAO_PLACA"
+  },
+  {
+    "keys": [
+      "Desejo modificar informações da ANTT",
+      "Quero alterar dados da ANTT",
+      "Gostaria de atualizar meus dados junto à ANTT",
+      "Preciso fazer alterações no cadastro da ANTT",
+      "Quero atualizar meus registros na ANTT",
+      "Necessito realizar mudanças nos dados da ANTT",
+      "Tenho interesse em atualizar meu cadastro junto à ANTT",
+      "Gostaria de fazer ajustes nos dados da ANTT",
+      "Quero atualizar minhas informações na ANTT",
+      "Desejo alterar detalhes no meu registro junto à ANTT",
+      "Preciso realizar uma atualização nos dados da ANTT"
+    ],
+    "flow": "NODE_ALTERACAO_ANTT"
+  },
+  {
+    "keys": [
+      "Procurar fretes",
+      "Buscar cargas",
+      "Localizar cargas disponíveis",
+      "Encontrar oportunidades de carga",
+      "Buscar oportunidades de transporte",
+      "Pesquisar por cargas para transporte",
+      "Localizar fretes disponíveis",
+      "Procurar por cargas para transportar",
+      "Encontrar opções de carga",
+      "Buscar remessas para transporte",
+      "Procurar por carregamentos disponíveis"
+    ],
+    "flow": "NODE_BUSCAR_CARGAS"
+  },
+  {
+    "keys": [
+      "Perguntas adicionais",
+      "Questões extras",
+      "Outras dúvidas",
+      "Dúvidas adicionais",
+      "Outras perguntas",
+      "Mais esclarecimentos necessários",
+      "Dúvidas complementares",
+      "Outros questionamentos",
+      "Informações adicionais requeridas",
+      "Outras incertezas",
+      "Perguntas secundárias",
+      "Outros Assuntos"
+    ],
+    "flow": "NODE_OUTRAS_DUVIDAS"
+  },
+  {
+    "keys": [
+      "Conversar com um atendente",
+      "Entrar em contato com o atendimento",
+      "Falar com atendente",
+      "Falar com humano",
+      "Falar com um representante",
+      "Chamar um operador",
+      "Contatar um atendente",
+      "Pedir para falar com um atendente",
+      "Solicitar assistência de um atendente",
+      "Buscar ajuda do atendimento",
+      "Requerer a presença de um atendente",
+      "Solicitar a intervenção de um atendente"
+    ],
+    "flow": "NODE_FALAR_ATENDENTE"
+  }
+]
