@@ -71,9 +71,7 @@ export async function getIntentionFromText(text: string): Promise<string> {
 		presence_penalty: 0,
 	});
 
-	console.log(data.choices[0].message);
+	const parsed = JSON.parse(data?.choices[0]?.message?.content as string);
 
-	const {motivo} = JSON.parse(data.choices[0].message?.content as string);
-
-	return motivo;
+	return parsed.motivo || '';
 }
