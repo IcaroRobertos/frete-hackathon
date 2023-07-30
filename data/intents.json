@@ -43,7 +43,11 @@
       "Atualização de contato e senha",
       "Atualização de informações de contato e senha",
       "Atualização de celular e senha",
-      "Renovação de telefone e senha"
+      "Renovação de telefone e senha",
+      "Não consigo acessar o aplicativo, esqueci a senha e quero alterar o telefone",
+      "Não estou conseguindo receber o código",
+      "Não recebi o sms",
+      "Mudei de telefone e não consigo resetar minha senha"
     ],
     "flow": "TRANSBORDO_SENHA_ATUALIZA_TEL"
   },

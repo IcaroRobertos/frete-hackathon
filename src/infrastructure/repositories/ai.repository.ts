@@ -8,7 +8,7 @@ export class AIRepository implements IAIRepository {
 	public async getIntentionFromText(text: string): Promise<string | AppError> {
 		try {
 			return getIntentionFromText(text);
-		} catch (err) {
+		} catch (err: any) {
 			return new AppError({
 				code: 502,
 				message: `${err}`,

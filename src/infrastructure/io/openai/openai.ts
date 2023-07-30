@@ -38,16 +38,19 @@ export async function speechToText({file}: ISpeechToText): Promise<string> {
 
 export async function getIntentionFromText(text: string): Promise<string> {
 	const systemInput = `
-		Classifique e identifique o motivo que mais se assemelha ao texto do cliente e defina a porcentagem em formato decimal dessa semelhança:
+		Comporte-se como um analista de atendimento da empresa FreteBras.
+		Classifique e identifique o motivo que mais se assemelha ao texto do cliente e defina a porcentagem em formato decimal dessa semelhança.
 
-    ${intents.map(i => i.keys.toString())}
+    ${intents.map((i, index) => `
+			*** Bloco ${index} ***
+			${i.keys.toString()}
+
+		`)}
 
 		Caso não seja semelhante com nenhum dos motivos citados classifique como "Outros Assuntos".
 
 		responda no formato JSON: "motivo" e "porcentagem"
 `;
-
-	console.log({systemInput});
 
 	const {data} = await openai.createChatCompletion({
 		model: 'gpt-3.5-turbo',
