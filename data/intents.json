@@ -13,7 +13,7 @@
       "Senha do app perdida",
       "Necessito relembrar a senha do aplicativo"
     ],
-    "flow": "NODE_ACESSO_APP_SENHA"
+    "flow": "ACESSO_APP_SENHA"
   },
   {
     "keys": [
@@ -29,7 +29,7 @@
       "Senha do portal perdida",
       "Necessito relembrar a senha do site"
     ],
-    "flow": "NODE_ACESSO_SITE_SENHA"
+    "flow": "ACESSO_SITE_SENHA"
   },
   {
     "keys": [
@@ -45,7 +45,7 @@
       "Atualização de celular e senha",
       "Renovação de telefone e senha"
     ],
-    "flow": "NODE_TRANSBORDO_SENHA_ATUALIZA_TEL"
+    "flow": "TRANSBORDO_SENHA_ATUALIZA_TEL"
   },
   {
     "keys": [
@@ -61,7 +61,7 @@
       "Desejo alterar detalhes da minha CNH",
       "Preciso realizar uma atualização na carteira de motorista"
     ],
-    "flow": "NODE_ATUALIZA_CNH"
+    "flow": "ATUALIZA_CNH"
   },
   {
     "keys": [
@@ -77,7 +77,7 @@
       "Desejo alterar detalhes do meu Telefone",
       "Preciso realizar uma atualização no número de Telefone"
     ],
-    "flow": "NODE_ALTERACAO_TELEFONE"
+    "flow": "ALTERACAO_TELEFONE"
   },
   {
     "keys": [
@@ -93,7 +93,7 @@
       "Desejo alterar detalhes da placa do meu veículo",
       "Preciso realizar uma atualização no registro da placa"
     ],
-    "flow": "NODE_ALTERACAO_PLACA"
+    "flow": "ALTERACAO_PLACA"
   },
   {
     "keys": [
@@ -109,7 +109,7 @@
       "Desejo alterar detalhes no meu registro junto à ANTT",
       "Preciso realizar uma atualização nos dados da ANTT"
     ],
-    "flow": "NODE_ALTERACAO_ANTT"
+    "flow": "ALTERACAO_ANTT"
   },
   {
     "keys": [
@@ -125,7 +125,7 @@
       "Buscar remessas para transporte",
       "Procurar por carregamentos disponíveis"
     ],
-    "flow": "NODE_BUSCAR_CARGAS"
+    "flow": "BUSCAR_CARGAS"
   },
   {
     "keys": [
@@ -142,7 +142,7 @@
       "Perguntas secundárias",
       "Outros Assuntos"
     ],
-    "flow": "NODE_OUTRAS_DUVIDAS"
+    "flow": "OUTRAS_DUVIDAS"
   },
   {
     "keys": [
@@ -159,6 +159,6 @@
       "Requerer a presença de um atendente",
       "Solicitar a intervenção de um atendente"
     ],
-    "flow": "NODE_FALAR_ATENDENTE"
+    "flow": "FALAR_ATENDENTE"
   }
 ]
